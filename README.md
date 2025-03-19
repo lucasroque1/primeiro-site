@@ -6,7 +6,8 @@ Exercício A: Utilizando Hooks e localStorage, ao usuário entrar na página um 
 
 Descrição da Atividade: O objetivo deste exercício é utilizar o Hook useEffect para executar uma ação (mostrar um alert) quando o componente é montado pela primeira vez. Este alert deve solicitar o nome do usuário.
 
-foto print
+![Image](https://github.com/user-attachments/assets/62d2467b-2cdf-4a54-8159-511cb3989c0f)
+
 
 Resultado: Ao acessar a página pela primeira vez (ou se o nome do usuário não estiver salvo no localStorage), um alert aparecerá solicitando que o usuário digite seu nome.
 
