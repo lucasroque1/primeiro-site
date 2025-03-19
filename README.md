@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+Documentação da Resolução dos Exercícios da Aula 2
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este documento descreve a resolução dos exercícios propostos ao final da "Aula 2 – Front-End.pdf"
 
-## Available Scripts
+Exercício A: Utilizando Hooks e localStorage, ao usuário entrar na página um alert deve aparecer perguntando ao usuário seu nome.
 
-In the project directory, you can run:
+Descrição da Atividade: O objetivo deste exercício é utilizar o Hook useEffect para executar uma ação (mostrar um alert) quando o componente é montado pela primeira vez. Este alert deve solicitar o nome do usuário.
 
-### `npm start`
+foto print
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Resultado: Ao acessar a página pela primeira vez (ou se o nome do usuário não estiver salvo no localStorage), um alert aparecerá solicitando que o usuário digite seu nome.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Exercício B: Ao usuário informar seu nome o valor deve ser salvo no localStorage.
 
-### `npm test`
+Descrição da Atividade: Após o usuário digitar seu nome no alert (conforme o Exercício A), o valor fornecido deve ser armazenado no localStorage para que na próxima vez que o usuário acessar a página, o nome possa ser recuperado sem a necessidade de digitá-lo novamente.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+foto print
 
-### `npm run build`
+Resultado: O nome fornecido pelo usuário será salvo localmente no navegador usando o localStorage.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Exercício C: Usando Hooks, faça a leitura do valor salvo no localState e insira na tela o nome do usuário e depois a frase “, sua lista de tarefas”
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Descrição da Atividade: Este exercício requer a utilização de um Hook (useEffect) para verificar se o nome do usuário já está salvo no localStorage. Se estiver, o valor deve ser lido e exibido na tela juntamente com a frase ", sua lista de tarefas".
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+foto de print
 
-### `npm run eject`
+Resultado: Ao carregar a página, se o nome do usuário estiver salvo no localStorage, ele será lido e exibido na tela seguido da frase ", sua lista de tarefas". Caso contrário, o alert para inserir o nome será mostrado.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Exercício D: Crie alguns Radio Buttons com nome de cores. Utilize a documentação do React: https://reactnative.dev/docs/colors
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Descrição da Atividade: Este exercício envolve a criação de elementos de formulário do tipo Radio Button. Cada Radio Button deve representar uma cor diferente. A documentação do React Native sobre cores foi fornecida como referência, embora estejamos desenvolvendo para a web utilizando React (a manipulação de cores será um pouco diferente).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+foto print
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Resultado: Serão exibidos Radio Buttons na tela, cada um com o nome de uma cor (verde, azul, verde, cinza, neste exemplo). A seleção de um dos Radio Buttons atualizará o estado corSelecionada.
