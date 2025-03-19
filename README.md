@@ -26,6 +26,7 @@ Descrição da Atividade: Este exercício requer a utilização de um Hook (useE
 
 ![Image](https://github.com/user-attachments/assets/e0414eed-b9c1-48dc-a850-6669b462b16f)
 
+
 Resultado: Ao carregar a página, se o nome do usuário estiver salvo no localStorage, ele será lido e exibido na tela seguido da frase ", sua lista de tarefas". Caso contrário, o alert para inserir o nome será mostrado.
 
 Exercício D: Crie alguns Radio Buttons com nome de cores. Utilize a documentação do React: https://reactnative.dev/docs/colors
@@ -36,3 +37,12 @@ Descrição da Atividade: Este exercício envolve a criação de elementos de fo
 
 
 Resultado: Serão exibidos Radio Buttons na tela, cada um com o nome de uma cor (branco, azul, verde, cinza, neste exemplo). A seleção de um dos Radio Buttons atualizará o estado corSelecionada.
+
+Exercício E: Ao usuário escolher uma cor o fundo da página deverá receber a mesma cor
+
+Descrição da Atividade: Este exercício complementa o Exercício D. O objetivo é que, ao selecionar um Radio Button de cor, a cor de fundo da página (body) seja alterada dinamicamente para a cor escolhida.
+
+
+
+
+Resolução e Resultado: Utilizamos o Hook useEffect para monitorar as mudanças no estado corSelecionada. Sempre que o valor de corSelecionada for alterado (ou seja, quando um novo Radio Button for selecionado), o efeito será executado. Dentro do efeito, acessamos o elemento body do documento e alteramos sua propriedade backgroundColor para o valor da corSelecionada.
