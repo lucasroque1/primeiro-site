@@ -35,4 +35,4 @@ Descrição da Atividade: Este exercício envolve a criação de elementos de fo
 ![Image](https://github.com/user-attachments/assets/3c0d266f-c3d9-4071-8739-818a4bbdb939)
 
 
-Resultado: Serão exibidos Radio Buttons na tela, cada um com o nome de uma cor (verde, azul, verde, cinza, neste exemplo). A seleção de um dos Radio Buttons atualizará o estado corSelecionada.
+Resultado: Serão exibidos Radio Buttons na tela, cada um com o nome de uma cor (branco, azul, verde, cinza, neste exemplo). A seleção de um dos Radio Buttons atualizará o estado corSelecionada.
