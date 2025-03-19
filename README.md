@@ -42,7 +42,9 @@ Exercício E: Ao usuário escolher uma cor o fundo da página deverá receber a 
 
 Descrição da Atividade: Este exercício complementa o Exercício D. O objetivo é que, ao selecionar um Radio Button de cor, a cor de fundo da página (body) seja alterada dinamicamente para a cor escolhida.
 
+![Image](https://github.com/user-attachments/assets/a3a27824-12c4-47b2-9ba1-84a8df1b0153)
 
+![Image](https://github.com/user-attachments/assets/82b5ff67-49ed-4773-8a53-7127d75b1467)
 
 
 Resolução e Resultado: Utilizamos o Hook useEffect para monitorar as mudanças no estado corSelecionada. Sempre que o valor de corSelecionada for alterado (ou seja, quando um novo Radio Button for selecionado), o efeito será executado. Dentro do efeito, acessamos o elemento body do documento e alteramos sua propriedade backgroundColor para o valor da corSelecionada.
