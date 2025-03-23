@@ -1,5 +1,17 @@
 Documentação da Resolução dos Exercícios da Aula 2
 
+Para comerçamos a testar o código precisamos fazer os seguintes passos
+
+cd (nome do projeto)
+
+Instalar as dependências do projeto:
+
+npm install
+
+Por ultimo o comando de rodar o código:
+
+npm start
+
 Exercício A: Utilizando Hooks e localStorage, ao usuário entrar na página um alert deve aparecer perguntando ao usuário seu nome.
 
 Descrição da Atividade: O objetivo deste exercício é utilizar o Hook useEffect para executar uma ação (mostrar um alert) quando o componente é montado pela primeira vez. Este alert deve solicitar o nome do usuário.
